@@ -14,6 +14,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "postinstall": "cd ./ui && npm install && npm build"
+    "postinstall": "cd ./ui && yarn install && yarn build"
   }
 }
