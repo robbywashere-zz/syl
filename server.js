@@ -48,6 +48,6 @@ app.get('/photos', async function(req, res){
 })
 
 
-app.use(express.static('public'))
+app.use(express.static('./ui/build'))
 
 app.listen(process.env.PORT || 3000)
